@@ -1,0 +1,16 @@
+<div class="h-screen d-flex justify-content-center align-items-center">
+  <div class="">
+    <h1 style="color: red; margin-bottom: 12px;">Search GitHub Repos</h1>
+    <div class="form__group field">
+      <input type="input" class="form__field" placeholder="Enter Username" name="name" [(ngModel)]="username" id="name" required />
+      <label for="name" class="form__label">Enter Username</label>
+    </div>
+    <div class="wrap">
+      <button (click)="search()" [disabled]="username == '' || isApiLoading" [ngClass]="{'button': !(username == '' || isApiLoading),
+                'button-disabled': username == '' || isApiLoading,}">
+        <span *ngIf="isApiLoading" class="loader"></span>
+        {{ isApiLoading ? '' : 'Search'}}</button>
+    </div>
+  </div>
+</div>
+

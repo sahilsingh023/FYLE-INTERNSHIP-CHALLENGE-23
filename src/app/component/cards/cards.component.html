@@ -1,0 +1,8 @@
+<div>
+  <div class="p-12 d-flex flex-direction-column w-300 border-light cards">
+    <span class="name mb-12">{{item.name}}</span>
+    <span class="description mb-12">{{item.description ? item.description : 'No Description found'}}</span>
+    <span *ngIf="item.language" class="tag mb-12">{{item.language}}</span>
+    <span *ngIf="!item.language" >No Language found</span>
+  </div>
+</div>

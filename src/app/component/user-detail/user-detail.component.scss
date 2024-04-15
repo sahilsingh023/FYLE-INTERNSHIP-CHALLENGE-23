@@ -1,0 +1,39 @@
+.logo img {
+  height: 144px;
+  width: 144px;
+  border-radius: 50%;
+}
+
+.location svg,.link svg {
+  height: 20px;
+}
+
+.gap {
+  &-48 {
+    gap: 48px;
+  }
+
+  &-4 {
+    gap: 4px;
+  }
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.parent
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
