@@ -14,7 +14,12 @@ To execute the test cases for my project, follow these steps:
 1. Open a terminal window.
 2. for my test case go to src/app/component/user-detail/user-detail.component.spec.ts file.
 3. Run the following command to execute the test cases in terminal
-    ng test --include src/app/component/user-detail/user-detail.component.spec.ts (command) 
+    ng test --include src/app/component/user-detail/user-detail.component.spec.ts (command)
+ 4. Run the following command to execute the test cases in terminal
+    ng test --include src/app/services/api.service.spec.ts (command)
+
+
+   
 
     
 
