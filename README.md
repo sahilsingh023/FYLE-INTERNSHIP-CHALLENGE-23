@@ -1,14 +1,12 @@
 # Fyle Frontend Challenge 
 # Prerequisites
 
-angular version 14+
+1. Install packages using npm i
+2. Build locally using ng serve
+3. You will land on user search page, enter user (eg- johnpapa) name and search it
+4. You will get user details and repos
 
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-
-    for home screen enter johnpapa
+    
 # Running Test Cases
 
 To execute the test cases for my project, follow these steps:
